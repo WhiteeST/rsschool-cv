@@ -1,6 +1,7 @@
-Stanislav Khokhlov
-github.com WhiteeST
-discord WhiteeST#2330
+# Stanislav Khokhlov
+![photo](https://drive.google.com/file/d/1ajJcx38iQbcAMFXr809TWQMjz_xUsxdJ/view?usp=sharing)
+### github.com WhiteeST
+### discord WhiteeST#2330
 Motivated Beginning Developer
 Some c++ skills
 I have some experience:
