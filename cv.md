@@ -1,6 +1,6 @@
 # Stanislav Khokhlov
 ![](https://github.com/WhiteeST/rsschool-cv/blob/gh-pages/Resource/photo_2022-06-03_11-41-42.jpg?raw=true)
----
+
 ### Contacts ###
 * GitHub: [@WhiteeST](https://github.com/WhiteeST)
 * Discord: WhiteeST#2330
