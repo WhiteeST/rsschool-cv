@@ -6,7 +6,7 @@
 * Email: whiteeluck123@gmail.com 
 
 ### About me ###
-* Motivated Beginning Developer 
+* Motivated Beginning Developer, trying to learn something new
 
 ### Experience ###
 * I have some experience:
