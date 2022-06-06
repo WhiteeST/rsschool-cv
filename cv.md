@@ -17,7 +17,7 @@
 
 ### Education ###
 * Yuri Gagarin State Technical University of Saratov
-* Bachelor of Computer Science Computer Engineering
+* Bachelor of Computer Science Computer Engineering 2011-2015
 
 ### Language ###
 * Russian - native
