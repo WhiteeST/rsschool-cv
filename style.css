@@ -70,6 +70,7 @@ a,
 a.text,
 a.text:active,
 a.text:hover {
+   color: #666;
    text-decoration: none;
 }
 
