@@ -1,3 +1,74 @@
-.fakeyellow{
-   color: rgba(0, 255, 42, 0.644);
+* {
+   box-sizing: border-box;
+ }
+
+ .body-style {
+   min-height: 100vh;
+   font-size: 18px;
+ }
+
+ .main
+ {
+   display: flex;
+   flex-direction: column;
+ }
+
+ section {
+   max-width: 50%;
+ }
+
+ h2 {
+   background-color: rgb(210, 255, 104);
+ }
+
+.footer {
+   background-color: grey;
+}
+
+.footer-text {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 1em;
+}
+.navigation {
+   min-width: 50%;
+   min-height: 50px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgb(210, 255, 104);
+   font-size: 25px;
+   /* margin: 0;
+   padding: 0; */
+}
+
+section a {
+   font-size: 1.5em;
+}
+
+a,
+a.text,
+a.text:active,
+a.text:hover {
+   text-decoration: none;
+}
+
+.nav-li {
+   list-style-type: none;
+   
+ }
+
+.avatar {
+   display: flex;
+   justify-content: center;
+}
+.cv-avatar {
+   display: flex;
+   justify-content: center;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
 }
