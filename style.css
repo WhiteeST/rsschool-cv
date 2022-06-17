@@ -1,11 +1,13 @@
 * {
    box-sizing: border-box;
- }
+}
 
  .body-style {
    min-height: 100vh;
    font-family: 'Centurygothic';
    font-size: 18px;   
+   background-color: rgb(255, 253, 240);
+   background-size: 100%;
  }
 
  section p {
