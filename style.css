@@ -47,8 +47,7 @@
 a,
 a.text,
 a.text:active,
-a.text:hover,
- {
+a.text:hover {
    text-decoration: none;
 }
 
