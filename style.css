@@ -4,6 +4,7 @@
 
  .body-style {
    min-height: 100vh;
+   font-family: 'Centurygothic';
    font-size: 18px;
  }
 
@@ -19,9 +20,11 @@
  }
 
  h2 {
-   background-color: rgb(210, 255, 104);
+   background-color: rgba(134, 206, 101, 0.527);
+   min-height: 50px;
    display: flex;
    justify-content: center;
+   align-items: center;
  }
 
 .footer {
@@ -50,7 +53,7 @@
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   background-color: rgb(210, 255, 104);
+   background-color: rgba(134, 206, 101, 0.527);
    font-size: 25px;
    /* margin: 0;
    padding: 0; */
@@ -96,3 +99,8 @@ a.text:hover {
    width: 200px;
    border-radius: 50%;
 }
+
+@font-face {
+   font-family: 'Centurygothic';
+    src: url("./source/fonts/centurygothic.ttf");
+  }
