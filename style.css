@@ -9,16 +9,19 @@
 
  .main
  {
-   display: flex;
-   flex-direction: column;
+   display: flex;   
+   flex-wrap: wrap;
+   justify-content: center;
  }
 
  section {
-   max-width: 50%;
+   width: 70%;
  }
 
  h2 {
    background-color: rgb(210, 255, 104);
+   display: flex;
+   justify-content: center;
  }
 
 .footer {
@@ -31,6 +34,14 @@
    align-items: center;
    margin-right: 1em;
 }
+
+.nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
 .navigation {
    min-width: 50%;
    min-height: 50px;
@@ -43,6 +54,12 @@
    font-size: 25px;
    /* margin: 0;
    padding: 0; */
+}
+
+.h1-text {
+   display: flex;
+   justify-content: center;
+   width: 100%;
 }
 
 section a {
@@ -62,6 +79,7 @@ a.text:hover {
  }
 
 .avatar {
+   margin: 8% 0 0 0;
    display: flex;
    justify-content: center;
 }
