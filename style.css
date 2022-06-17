@@ -78,6 +78,11 @@ a.text:hover {
    
  }
 
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
 .avatar {
    margin: 8% 0 0 0;
    display: flex;
