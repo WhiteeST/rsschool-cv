@@ -10,34 +10,100 @@
     <title>Stanislav Khokhlov</title>
 </head>
 
-<body class="body">
+<body class="body-style" id="cv">
     <header>
-        <div>
+        <div class="avatar">
             <img class="cv-avatar" src="./source/img/cv_avatar.png" alt="cv_avatar">
         </div>
+        <nav>
+            <ul class="navigation">
+                <li class="nav-li"><a href="#cv">CV</a> </li>
+                <li class="nav-li"><a href="#contacts">Contacts</a></li>
+                <li class="nav-li"><a href="#about_me">About me</a></li>
+                <li class="nav-li"><a href="#education">Education</a></li>
+                <li class="nav-li"><a href="#code">Code</a></li>
+                <li class="nav-li"><a href="#language">Language</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <main class="main">
         <h1>Hello, please wait, work in progress</h1>
-        <pre>
-        Stanislav Khokhlov
-        Contacts
-        GitHub: @WhiteeST
-        Discord: WhiteeST#2330
-        Email: whiteeluck123@gmail.com
-        About me
-        Motivated Beginning Developer, trying to learn something new
-        Experience
-        I have some experience:
-        Testing, firmware and calibration of various telecommunications equipment
-        Some c++ skills
-        Programming of small scripts and small applications for test equipment monitoring.
-        Also work in the QCD department: On the control and measuring machine (preparation of models and drawing up motion programs for measuring parts)
-        Education
-        Yuri Gagarin State Technical University of Saratov
-        Bachelor of Computer Science Computer Engineering 2011-2015
-        Language
-        Russian - native
-        English - Learning by watching streams :) A1 maybe</pre>
+        <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            Stanislav Khokhlov
+            GitHub: @WhiteeST
+            Discord: WhiteeST#2330
+            Email: whiteeluck123@gmail.com
+        </section>
+
+        <section id="about_me">
+            <h2>About me</h2>
+            <div>
+                Motivated Beginning Developer, trying to learn something new
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div>
+                I have some experience:
+                Testing, firmware and calibration of various telecommunications equipment
+                Some c++ skills
+                Programming of small scripts and small applications for test equipment monitoring.
+                Also work in the QCD department: On the control and measuring machine (preparation of models and drawing
+                up
+                motion programs for measuring parts)
+            </div>
+
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div>
+                Yuri Gagarin State Technical University of Saratov
+                Bachelor of Computer Science Computer Engineering 2011-2015
+            </div>
+        </section>
+
+        <section id="code">
+            <h2>Code</h2>
+            <pre>
+                <code>
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+ }
+.navigation {
+    min-width: 50%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(210, 255, 104);
+    font-size: 25px;
+    /* margin: 0;
+    padding: 0; */
+ }
+                </code>
+            </pre>
+
+        </section>
+
+        <section id="language">
+            <h2>Language</h2>
+            <div>
+                Russian - native
+                English - Learning by watching streams :) A1 maybe
+            </div>
+        </section>
+
+
+
+
+
     </main>
     <footer class="footer">
         <div class="footer-text">
