@@ -82,11 +82,7 @@
    padding: 0; */
 }
 
-.h1-text {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-}
+
 
 section a {
    font-size: 1.5em;
@@ -109,21 +105,35 @@ a.text:hover {
    margin: 0 auto;
 }
 
+
+
 .avatar {
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
    margin: 8% 0 0 0;
-   display: flex;
-   justify-content: center;
+   padding: 0 50px;
+   /* text-align: center; */
 }
-.cv-avatar {
+
+.h1_text {   
    display: flex;
-   justify-content: center;
+   align-items: center;
+}
+
+.cv-avatar {
    height: 200px;
    width: 200px;
    border-radius: 50%;
+}
+
+.skills-text {
+   font-size: 1.5em;
+   margin: 0;
 }
 
 @font-face {
     font-family: 'Centurygothic';
     src: url("./source/fonts/centurygothic.ttf");
   }
-
