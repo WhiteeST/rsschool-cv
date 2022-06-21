@@ -90,6 +90,7 @@ section a {
 }
 
 nav a,
+.projcet_link,
 a.text,
 a.text:active,
 a.text:hover {
@@ -136,5 +137,5 @@ a.text:hover {
 
 @font-face {
     font-family: 'Centurygothic';
-    src: url("./source/fonts/centurygothic.ttf");
+    src: url("./fonts/centurygothic.ttf");
   }
