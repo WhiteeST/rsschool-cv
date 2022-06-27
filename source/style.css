@@ -24,6 +24,7 @@
 
  section {
    width: 70%;
+   
  }
 
  h2 {
@@ -32,6 +33,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 63px;
  }
 
 .footer {
@@ -63,6 +65,8 @@
  }
 
 .nav {
+   display: flex;
+   justify-content: center;
    position: fixed;
    top: 0;
    left: 0;
@@ -70,8 +74,10 @@
 }
 
 .navigation {
-   min-width: 50%;
-   min-height: 50px;
+   width: 100%;
+   min-height: 4rem;
+   /* min-width: 50%;
+   min-height: 50px; */
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -79,8 +85,8 @@
    justify-content: space-around;
    background-color: rgb(191, 233, 171);
    font-size: 25px;
-   /* margin: 0;
-   padding: 0; */
+   margin: 0;
+   padding: 0;
 }
 
 
@@ -138,4 +144,17 @@ a.text:hover {
 @font-face {
     font-family: 'Centurygothic';
     src: url("./fonts/centurygothic.ttf");
+  }
+
+  @media (max-width: 600px)
+  {
+   .nav {
+      position: relative;
+   }
+   .navigation {
+      flex-direction: column;
+  }
+  /* .container {
+   margin-top: 200px;
+  } */
   }
