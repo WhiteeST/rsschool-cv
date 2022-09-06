@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" id="cv">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta somName="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./source/style.css" rel="stylesheet">
     <link rel="icon" href="./source/img/fav_icon.png">
     <title>Stanislav Khokhlov</title>
@@ -22,7 +22,6 @@
                 <li class="nav-li"><a href="#language">Language</a></li>
             </ul>
         </nav>
-
     </header>
     <main class="container">
         <div class="avatar">
@@ -90,24 +89,18 @@
                 </p>
                 <pre>
                 <code>
-.footer-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 1em;
- }
-.navigation {
-    min-width: 50%;
-    min-height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(210, 255, 104);
-    font-size: 25px;
-    /* margin: 0;
-    padding: 0; */
- }
+    const showDate = () => {
+        const date = new Date();
+        const options = { weekday: 'long', month: 'long', day: 'numeric' };
+        DATE.textContent = date.toLocaleDateString('en-EN', options);
+    }
+    
+    const getTimeOfDay = () => {
+        const date = new Date();
+        const hours = date.getHours();
+        const TIME_OF_DAY = ['night', 'morning', 'afternoon', 'evening'];
+        return TIME_OF_DAY[Math.floor(hours / 6)]
+    }
                 </code>
             </pre>
             </section>
