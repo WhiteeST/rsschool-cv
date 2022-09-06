@@ -89,13 +89,13 @@
                 </p>
                 <pre>
                 <code>
-    const showDate = () => {
+    const showDate = () =&gt; {
         const date = new Date();
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
         DATE.textContent = date.toLocaleDateString('en-EN', options);
     }
     
-    const getTimeOfDay = () => {
+    const getTimeOfDay = () =&gt; {
         const date = new Date();
         const hours = date.getHours();
         const TIME_OF_DAY = ['night', 'morning', 'afternoon', 'evening'];
