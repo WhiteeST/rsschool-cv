@@ -2,39 +2,38 @@
    box-sizing: border-box;
 }
 
- .body-style {
+.body-style {
    min-height: 100vh;
    font-family: 'Centurygothic';
-   font-size: 18px;      
+   font-size: 18px;
    /* font-weight: 300; */
    background-color: rgb(255, 253, 240);
    background-size: 100%;
- }
+}
 
- section p {
+section p {
    padding-left: 20px;
- }
+}
 
- .main
- {
-   display: flex;   
+.main {
+   display: flex;
    flex-wrap: wrap;
    justify-content: center;
- }
+}
 
- section {
+section {
    width: 70%;
-   
- }
 
- h2 {
+}
+
+h2 {
    background-color: rgb(191, 233, 171);
    min-height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
    margin-top: 63px;
- }
+}
 
 .footer {
    display: flex;
@@ -48,21 +47,21 @@
 /* .footer-text {
    display: flex;
    /* justify-content: space-around; */
-  
+
 
 
 .fade {
    opacity: 1;
    text-decoration: none;
    color: black;
- }
- 
- .fade:hover,.nav-li:hover {
+}
+
+.fade:hover, .nav-li:hover {
    opacity: 0.6;
    -webkit-transform: scale(1.2);
    -ms-transform: scale(1.2);
    transform: scale(1.2);
- }
+}
 
 .nav {
    display: flex;
@@ -105,8 +104,8 @@ a.text:hover {
 }
 
 .nav-li {
-   list-style-type: none;   
- }
+   list-style-type: none;
+}
 
 .container {
    max-width: 1440px;
@@ -116,7 +115,7 @@ a.text:hover {
 
 
 .avatar {
-   
+
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -125,7 +124,7 @@ a.text:hover {
    /* text-align: center; */
 }
 
-.h1_text {   
+.h1_text {
    display: flex;
    align-items: center;
 }
@@ -142,19 +141,19 @@ a.text:hover {
 }
 
 @font-face {
-    font-family: 'Centurygothic';
-    src: url("./fonts/centurygothic.ttf");
-  }
+   font-family: 'Centurygothic';
+   src: url("./fonts/centurygothic.ttf");
+}
 
-  @media (max-width: 600px)
-  {
+@media (max-width: 600px) {
    .nav {
       position: relative;
    }
+
    .navigation {
       flex-direction: column;
-  }
-  /* .container {
+   }
+   /* .container {
    margin-top: 200px;
   } */
-  }
+}
