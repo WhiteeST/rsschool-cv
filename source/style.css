@@ -56,7 +56,8 @@ h2 {
    color: black;
 }
 
-.fade:hover, .nav-li:hover {
+.fade:hover,
+.nav-li:hover {
    opacity: 0.6;
    -webkit-transform: scale(1.2);
    -ms-transform: scale(1.2);
